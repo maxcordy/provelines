@@ -1,0 +1,14 @@
+/*
+ * Version.hpp
+ */
+
+#ifndef VERSION_HPP
+#define	VERSION_HPP
+
+// The configured settings for the project
+#define PVL_VERSION "@PVL_VERSION@"
+#define PVL_VERSION_MAJOR "@PVL_VERSION_MAJOR@"
+#define PVL_VERSION_MINOR "@PVL_VERSION_MINOR@"
+#define PVL_REVISION "@PVL_REVISION@"
+
+#endif	/* VERSION_HPP */
