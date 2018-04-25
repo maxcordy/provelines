@@ -58,10 +58,17 @@ install both frameworks on the library path, performs the following
 commands from the home directory of GMock.
 
 $ autoreconf -fvi
+
 $ cd make
+
 $ make gmock.a
+
 $ sudo cp gmock.a /usr/local/lib/libgmock.a
+
 $ cd ..
+
 $ sudo cp -r include/gmock /usr/local/include
+
 $ sudo cp -r gtest/include/gtest /usr/local/include
+
 $ sudo ldconfig
