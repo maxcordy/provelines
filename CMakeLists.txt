@@ -20,14 +20,14 @@ set(PVL_VERSION_MAJOR 2)
 set(PVL_VERSION_MINOR 0)
 set(PVL_VERSION ${PVL_VERSION_MAJOR}.${PVL_VERSION_MINOR})
 
-find_package(Subversion)
-    if(Subversion_FOUND)
-      # Use the FindSubversion.cmake module to get the svn rev and append
-      # that to the patch version.
-      Subversion_WC_INFO(${PROJECT_SOURCE_DIR} Project)
-      message("Current revision is ${Project_WC_REVISION}")
-      set (PVL_REVISION ${Project_WC_REVISION})
-endif(Subversion_FOUND)
+#find_package(Subversion)
+#    if(Subversion_FOUND)
+#      # Use the FindSubversion.cmake module to get the svn rev and append
+#      # that to the patch version.
+#      Subversion_WC_INFO(${PROJECT_SOURCE_DIR} Project)
+#      message("Current revision is ${Project_WC_REVISION}")
+#      set (PVL_REVISION ${Project_WC_REVISION})
+#endif(Subversion_FOUND)
 
 configure_file (
     "${PROJECT_SOURCE_DIR}/Version.hpp.in"

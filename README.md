@@ -3,7 +3,7 @@ ProVeLines is a product line of verifier for software product lines. This reposi
 
 # Main Contributors
 - Maxime Cordy (product owner)
-- Marco Willemart (main developer)
+- Marco Willemart (developer)
 - Bruno Dawagne (developer)
 
 # Project Dependencies
