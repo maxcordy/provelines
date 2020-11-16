@@ -2,7 +2,8 @@
 ProVeLines is a product line of verifier for software product lines. This repository contains a new version of the tool, coded in C++.
 
 # Main Contributors
-- Maxime Cordy (product owner)
+- Maxime Cordy (product owner, main developer)
+- Andreas Classen (former product owner, developer)
 - Marco Willemart (developer)
 - Bruno Dawagne (developer)
 
